@@ -19,7 +19,7 @@ body {
   padding: 0.1px;
   width: 100%;
   height: 650px;
-  background-image: url(../img/desktop/image-hero.jpg);
+  background-image: linear-gradient(rgba(17, 17, 17, 0.438), rgba(17, 17, 17, 0.438)) , url(../img/desktop/image-hero.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
