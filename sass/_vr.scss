@@ -1,0 +1,31 @@
+@use 'variables';
+
+.vrContainer {
+  display: block;
+  padding: 50px;
+  width: 90%;
+  height: 640px;
+  margin: 80px auto;
+
+  .leader {
+    left: 50%;
+    bottom: 300px;
+    background-color: variables.$White;
+    text-align: center;
+    padding: 40px;
+    height: 360px;
+    width: 600px;
+    position: relative;
+    z-index: 1;
+    h2 {
+      font-size: 42px;
+      margin: 30px;
+    }
+    p {
+      font-weight: 600;
+      color: variables.$VeryDarkGray;
+      text-align: justify;
+      font-size: 18px;
+    }
+  }
+}

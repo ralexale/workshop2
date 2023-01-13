@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 2088px;
+  padding: 40px;
+}
+
+.headerContainer {
+  padding: 0.1px;
+  width: 100%;
+  height: 650px;
+  background-image: url(../img/desktop/image-hero.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: hsl(0deg, 0%, 100%);
+}
+.headerContainer .navContainer {
+  font-family: "Alata", sans-serif;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerContainer .navContainer .loop {
+  margin-left: 100px;
+  font-size: 24px;
+}
+.headerContainer .navContainer .listLinks {
+  display: inline-block;
+  list-style: none;
+}
+.headerContainer .navContainer .listLinks .links {
+  display: inline-block;
+  padding: 0 5px;
+}
+.headerContainer .navContainer .listLinks .links a {
+  transition: 2s;
+  color: white;
+  text-decoration: none;
+}
+.headerContainer .navContainer .listLinks .links a:hover {
+  border-bottom: 1px solid white;
+}
+.headerContainer .titleContainer {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 52px;
+  margin: 100px 0 0 100px;
+  border: 2px solid hsl(0deg, 0%, 100%);
+  width: 700px;
+  height: 285px;
+}
+.headerContainer .titleContainer .title {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8);
+  font-weight: 100;
+  padding: 20px;
+  border: 2px solid hsl(0deg, 0%, 100%);
+}
+.headerContainer .titleContainer .title .text1 {
+  font-weight: 100;
+}
+
+.vrContainer {
+  display: block;
+  padding: 50px;
+  width: 90%;
+  height: 640px;
+  margin: 80px auto;
+}
+.vrContainer .leader {
+  left: 50%;
+  bottom: 300px;
+  background-color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  padding: 40px;
+  height: 360px;
+  width: 600px;
+  position: relative;
+  z-index: 1;
+}
+.vrContainer .leader h2 {
+  font-size: 42px;
+  margin: 30px;
+}
+.vrContainer .leader p {
+  font-weight: 600;
+  color: hsl(0deg, 0%, 41%);
+  text-align: justify;
+  font-size: 18px;
+}
+
+.crationsContainer {
+  margin: 0px auto;
+  width: 90%;
+  height: 1100px;
+}
+.crationsContainer .headC {
+  padding: 0 60px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.crationsContainer .headC h2 {
+  font-size: 36px;
+}
+.crationsContainer .headC button {
+  padding: 5px;
+  border: 1px solid black;
+  background-color: white;
+}
+.crationsContainer .galeria {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 980px;
+}
+.crationsContainer .galeria .bg {
+  padding-top: 350px;
+  align-items: center;
+  margin-top: 20px;
+  display: inline-block;
+  width: 20%;
+  margin-left: 1.5%;
+  height: 455px;
+}
+.crationsContainer .galeria .uno {
+  background-image: url("../img/desktop/image-deep-earth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crationsContainer .galeria .uno .textbg {
+  font-weight: 100;
+  font-size: 32px;
+  margin: 50 auto;
+  color: white;
+}
+.crationsContainer .galeria .dos {
+  background-image: url("../img/desktop/image-night-arcade.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crationsContainer .galeria .dos .textbg {
+  font-weight: 100;
+  font-size: 32px;
+  margin: 50 auto;
+  color: white;
+}
+.crationsContainer .galeria .tres {
+  background-image: url("../img/desktop/image-soccer-team.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crationsContainer .galeria .tres .textbg {
+  font-weight: 100;
+  font-size: 32px;
+  margin: 50 auto;
+  color: white;
+}
+.crationsContainer .galeria .cuatro {
+  background-image: url("../img/desktop/image-grid.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crationsContainer .galeria .cuatro .textbg {
+  font-weight: 100;
+  font-size: 32px;
+  margin: 50 auto;
+  color: white;
+}
+.crationsContainer .galeria .cinco {
+  background-image: url("../img/desktop/image-from-above.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crationsContainer .galeria .cinco .textbg {
+  font-weight: 100;
+  font-size: 32px;
+  margin: 50 auto;
+  color: white;
+}
+.crationsContainer .galeria .seis {
+  background-image: url("../img/desktop/image-pocket-borealis.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crationsContainer .galeria .seis .textbg {
+  font-weight: 100;
+  font-size: 32px;
+  margin: 50 auto;
+  color: white;
+}
+.crationsContainer .galeria .siete {
+  background-image: url("../img/desktop/image-curiosity.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crationsContainer .galeria .siete .textbg {
+  font-weight: 100;
+  font-size: 32px;
+  margin: 50 auto;
+  color: white;
+}
+.crationsContainer .galeria .ocho {
+  background-image: url("../img/desktop/image-fisheye.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.crationsContainer .galeria .ocho .textbg {
+  font-weight: 100;
+  font-size: 32px;
+  margin: 50 auto;
+  color: white;
+}
+
+.footerContaier {
+  padding: 60px;
+  width: 100%;
+  height: 164px;
+  color: white;
+  background-color: hsl(0deg, 0%, 0%);
+}
+.footerContaier .barIcons {
+  display: flex;
+  justify-content: space-between;
+}
+.footerContaier .barIcons img {
+  padding: 5px;
+}
+.footerContaier .barlinks2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerContaier .barlinks2 .listLinks {
+  display: inline-block;
+  list-style: none;
+}
+.footerContaier .barlinks2 .listLinks .links {
+  display: inline-block;
+  padding: 0 5px;
+}
+.footerContaier .barlinks2 .listLinks .links a {
+  transition: 2s;
+  color: white;
+  text-decoration: none;
+}
+.footerContaier .barlinks2 .listLinks .links a:hover {
+  border-bottom: 1px solid white;
+}
+.footerContaier .barlinks2 p {
+  font-weight: 600;
+  color: hsl(0deg, 0%, 55%);
+}
+
+/*# sourceMappingURL=styles.css.map */

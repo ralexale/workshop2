@@ -1,0 +1,33 @@
+@use 'variables';
+
+@mixin bgimage($img) {
+  background-image: url($img);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  .textbg {
+    font-weight: 100;
+    font-size: 32px;
+    margin: 50 auto;
+    color: white;
+  }
+}
+
+@mixin links {
+  .listLinks {
+    display: inline-block;
+    list-style: none;
+    .links {
+      display: inline-block;
+      padding: 0 5px;
+      a {
+        transition: 2s;
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}

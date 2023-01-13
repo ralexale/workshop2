@@ -1,0 +1,17 @@
+@use 'variables';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: variables.$fontJosefin;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 2088px;
+  padding: 40px;
+}

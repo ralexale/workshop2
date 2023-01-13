@@ -1,0 +1,63 @@
+@use 'variables';
+@use 'mixins';
+
+.crationsContainer {
+  //   padding: 50px;
+  margin: 0px auto;
+  width: 90%;
+  height: 1100px;
+  .headC {
+    padding: 0 60px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-size: 36px;
+    }
+    button {
+      padding: 5px;
+      border: 1px solid black;
+      background-color: white;
+    }
+  }
+  .galeria {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 980px;
+    .bg {
+      padding-top: 350px;
+      align-items: center;
+      margin-top: 20px;
+      display: inline-block;
+      width: 20%;
+      margin-left: 1.5%;
+      height: 455px;
+    }
+    .uno {
+      @include mixins.bgimage('../img/desktop/image-deep-earth.jpg');
+    }
+    .dos {
+      @include mixins.bgimage('../img/desktop/image-night-arcade.jpg');
+    }
+    .tres {
+      @include mixins.bgimage('../img/desktop/image-soccer-team.jpg');
+    }
+    .cuatro {
+      @include mixins.bgimage('../img/desktop/image-grid.jpg');
+    }
+    .cinco {
+      @include mixins.bgimage('../img/desktop/image-from-above.jpg');
+    }
+    .seis {
+      @include mixins.bgimage('../img/desktop/image-pocket-borealis.jpg');
+    }
+    .siete {
+      @include mixins.bgimage('../img/desktop/image-curiosity.jpg');
+    }
+    .ocho {
+      @include mixins.bgimage('../img/desktop/image-fisheye.jpg');
+    }
+  }
+}
